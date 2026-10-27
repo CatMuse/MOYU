@@ -12,7 +12,7 @@ MOYU 是一款 Mac 上的英语学习工具。通过快捷键唤出输入条，�
 
 首个公开版本正在准备中，目前还没有可下载的安装包。
 
-正式发布后，请从 [Releases](https://github.com/CatMuse/MOYU-Releases/releases) 下载对应版本的安装包。系统要求、支持的芯片类型和安装方式会随版本说明一起提供。
+正式发布后，请从 [Releases](https://github.com/CatMuse/MOYU/releases) 下载对应版本的安装包。系统要求、支持的芯片类型和安装方式会随版本说明一起提供。
 
 ## 使用与试用
 
@@ -28,6 +28,6 @@ MOYU 是一款 Mac 上的英语学习工具。通过快捷键唤出输入条，�
 
 ## 问题反馈
 
-可以通过 [Issues](https://github.com/CatMuse/MOYU-Releases/issues) 反馈安装和使用问题。请提供应用版本、macOS 版本及复现步骤；不要在公开问题中填写激活码、购买邮箱或支付凭据。
+可以通过 [Issues](https://github.com/CatMuse/MOYU/issues) 反馈安装和使用问题。请提供应用版本、macOS 版本及复现步骤；不要在公开问题中填写激活码、购买邮箱或支付凭据。
 
 本仓库用于发布安装包、版本说明及收集反馈，不包含 MOYU 应用源码或授权服务源码。
