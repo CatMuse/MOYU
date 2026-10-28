@@ -10,9 +10,13 @@ MOYU 是一款 Mac 上的英语学习工具。通过快捷键唤出输入条，�
 
 ## 下载
 
-首个公开版本正在准备中，目前还没有可下载的安装包。
+当前版本：[v0.1.0 预览版](https://github.com/CatMuse/MOYU/releases/tag/v0.1.0)。
 
-正式发布后，请从 [Releases](https://github.com/CatMuse/MOYU/releases) 下载对应版本的安装包。系统要求、支持的芯片类型和安装方式会随版本说明一起提供。
+- 系统要求：macOS 26 或更新版本。
+- 芯片：Apple Silicon（M 系列），本版本不支持 Intel Mac。
+- [下载 DMG 安装包](https://github.com/CatMuse/MOYU/releases/download/v0.1.0/MOYU-0.1.0-arm64.dmg)，将 MOYU 拖入应用程序文件夹；也可下载 Release 中的 ZIP。
+- 手动打开应用会显示控制中心，关闭窗口后继续驻留菜单栏。默认快捷键为 Shift+Command+M。
+- 本预览版未经过 Developer ID 签名和 Apple 公证。首次打开若被系统拦截，请确认下载来源后，在“系统设置 → 隐私与安全性”中按系统提示打开。
 
 ## 使用与试用
 
