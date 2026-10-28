@@ -8,6 +8,8 @@
 
 MOYU 是一款 Mac 上的英语学习工具。通过快捷键唤出输入条，利用碎片时间练习单词与句子。
 
+![MOYU 单词学习界面：输入候选词与图解释义](assets/moyu-word-learning.jpg)
+
 ## 下载
 
 当前版本：[v0.1.0 预览版](https://github.com/CatMuse/MOYU/releases/tag/v0.1.0)。
