@@ -7,20 +7,22 @@
 <p align="center">给忙碌日常的一点英语时间。<br>敲几个单词，练两句英语，随时开始，随时收起。</p>
 
 <p align="center">
-  <a href="https://github.com/CatMuse/MOYU/releases/download/v0.1.0-preview.20261109/MOYU-0.1.0-preview.20261109-macos-arm64.zip"><strong>下载 Mac 预览版</strong></a>
+  <a href="https://github.com/CatMuse/MOYU/releases/download/v0.1.0-preview.20261113/MOYU-0.1.0-preview.20261113-macos-arm64.zip"><strong>下载 Mac 预览版</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/CatMuse/MOYU/releases/tag/v0.1.0-preview.20261109">版本说明</a>
+  <a href="https://github.com/CatMuse/MOYU/releases/download/v0.1.0-preview.20261113/MOYU_0.1.0_x64-setup.exe"><strong>下载 Windows 内测版</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/CatMuse/MOYU/releases/tag/v0.1.0-preview.20261113">版本说明</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/CatMuse/MOYU/issues">问题反馈</a>
 </p>
 
-<p align="center">Apple 芯片 · macOS 26 及以上为当前测试环境 · 免费试用 7 天</p>
+<p align="center">Apple 芯片 Mac / Windows x64 · 免费试用 7 天</p>
 
 ## 留在手边，学在日常
 
 MOYU 是一款以输入练习为核心的桌面英语学习应用。通过快捷键唤出输入条，在工作或阅读的间隙练习；结合释义、发音和图片理解内容，再通过输入加深记忆。
 
-当前发布的是跨平台客户端的 **macOS 预览版**。Windows 下载暂未提供。
+当前提供跨平台客户端的 **macOS 预览版与 Windows x64 内测版**。
 
 ## 可以怎样学
 
@@ -38,17 +40,21 @@ MOYU 是一款以输入练习为核心的桌面英语学习应用。通过快捷
 
 ## 下载与安装
 
-当前版本：**[v0.1.0 跨平台预览版 · 2026-11-09](https://github.com/CatMuse/MOYU/releases/tag/v0.1.0-preview.20261109)**，应用构建于 2026-11-08。
+当前版本：**[v0.1.0 跨平台预览版 · 2026-11-13](https://github.com/CatMuse/MOYU/releases/tag/v0.1.0-preview.20261113)**，两个平台均从同一份客户端代码构建。
 
-1. [下载 Mac 版 ZIP（约 7 MB）](https://github.com/CatMuse/MOYU/releases/download/v0.1.0-preview.20261109/MOYU-0.1.0-preview.20261109-macos-arm64.zip)。
+1. [下载 Mac 版 ZIP（约 7 MB）](https://github.com/CatMuse/MOYU/releases/download/v0.1.0-preview.20261113/MOYU-0.1.0-preview.20261113-macos-arm64.zip)。
 2. 解压，将 `MOYU.app` 拖入「应用程序」。
 3. 打开 MOYU，在客户端中选择内容并开始体验。
 
-- **芯片**：Apple Silicon（M 系列），当前安装包不支持 Intel Mac。
-- **系统**：当前测试环境为 macOS 26 及以上；较早的 macOS 版本尚未在本次发布中验证。
-- **完整性校验**：Release 附带 [SHA256SUMS.txt](https://github.com/CatMuse/MOYU/releases/download/v0.1.0-preview.20261109/SHA256SUMS.txt)。
+Windows 用户可[下载 x64 安装程序](https://github.com/CatMuse/MOYU/releases/download/v0.1.0-preview.20261113/MOYU_0.1.0_x64-setup.exe)，双击 EXE 并按提示安装。
+
+- **Mac 芯片**：Apple Silicon（M 系列），当前 Mac 安装包不支持 Intel Mac。
+- **Mac 系统**：当前测试环境为 macOS 26 及以上；较早的 macOS 版本尚未在本次发布中验证。
+- **完整性校验**：Release 附带 [SHA256SUMS.txt](https://github.com/CatMuse/MOYU/releases/download/v0.1.0-preview.20261113/SHA256SUMS.txt)。
 
 > 当前预览版采用本地 ad-hoc 签名，尚未完成 Developer ID 签名与 Apple 公证。首次打开若提示无法验证开发者，请确认文件来自本仓库，再到「系统设置 → 隐私与安全性」中按系统提示打开。
+
+Windows 安装包尚未签名，可能显示“未知发布者”或 SmartScreen 提示；请核对下载来源与校验值。系统美音／英音需要安装对应的 Windows 英语语音组件，完成后重启 MOYU。
 
 <details>
 <summary>之前下载过旧 Swift 预览版？</summary>
@@ -59,9 +65,9 @@ MOYU 是一款以输入练习为核心的桌面英语学习应用。通过快捷
 
 ## 开始使用
 
-- **唤出或收起输入条**：默认 `⌘ ⇧ M`。
-- **展开或收起详情**：默认 `⌘ ⇧ ↓`。
-- 快捷键、发音、提示音及练习偏好可在设置中调整；已有设置以客户端显示为准。
+- **Mac 唤出或收起输入条**：默认 `⌘ ⇧ M`。
+- **Mac 展开或收起详情**：默认 `⌘ ⇧ ↓`。
+- Windows 快捷键以设置页显示为准。快捷键、发音、提示音及练习偏好可在设置中调整；已有设置以客户端显示为准。
 - 学习记录保存在本机。在线服务、授权及需要下载的内容仍需联网。
 
 ## 试用与授权
@@ -70,12 +76,12 @@ MOYU 是一款以输入练习为核心的桌面英语学习应用。通过快捷
 
 ## 更新与反馈
 
-- [当前跨平台版本说明](https://github.com/CatMuse/MOYU/releases/tag/v0.1.0-preview.20261109)
+- [当前跨平台版本说明](https://github.com/CatMuse/MOYU/releases/tag/v0.1.0-preview.20261113)
 - [全部版本与历史安装包](https://github.com/CatMuse/MOYU/releases)
 - [更新记录](CHANGELOG.md)
 - [提交问题或建议](https://github.com/CatMuse/MOYU/issues/new)
 
-反馈问题时，请附上 **应用版本、macOS 版本、芯片型号、复现步骤**，以及必要的截图。请勿在公开问题中附上 API 密钥、激活码、购买邮箱或支付凭据。
+反馈问题时，请附上 **应用版本、操作系统版本、芯片型号、复现步骤**，以及必要的截图。请勿在公开问题中附上 API 密钥、激活码、购买邮箱或支付凭据。
 
 ---
 
